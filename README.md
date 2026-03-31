@@ -16,13 +16,3 @@ The repository is divided into directories, each corresponding to a specific lab
 
 ### `01-tdd/` - Test-Driven Development (TDD)
 This module focuses on practicing Test-Driven Development (TDD) in Python, featuring pair programming exercises (String Calculator Kata) and automated functional UI testing using Selenium.
-
-### `02-katas/` - Code Katas & Pair Programming
-
-### `03-refactoring/` - Code Review & Refactoring
-
-### `04-design-patterns/` - Design Patterns
-
-### `05-ci-cd/` - Continuous Integration & Deployment
-
-### `06-cloud-iac/` - Cloud Automation
