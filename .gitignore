@@ -1,0 +1,7 @@
+# Ustawienia VS Code
+.vscode/
+
+# Pamięć podręczna Pythona (skompilowane pliki)
+__pycache__/
+*.py[cod]
+*$py.class
