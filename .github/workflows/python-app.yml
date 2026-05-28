@@ -18,10 +18,13 @@ jobs:
         pip install -r requirements.txt
     - name: Test with Pytest
       run: |
-        pytest
+        cd 05-ci_cd
+        pytest test_utilis.py
     - name: Lint with Pylint
       run: |
-        pylint ./utils.py
+        cd 05-ci_cd
+        pylint ./utilis.py
     - name: Format with Black
       run: |
+        cd 05-ci_cd
         black --check .
