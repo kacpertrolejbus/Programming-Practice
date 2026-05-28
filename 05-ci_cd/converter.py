@@ -1,5 +1,6 @@
 """Funtion"""
 
+
 def dec_to_bin(number):
     """Konwersja tu"""
     if isinstance(number, bool) or not isinstance(number, int):
