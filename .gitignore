@@ -1,2 +1,7 @@
 **/.vscode/
 **/__pycache__/
+.venv
+01-tdd
+02-kata
+03-refactoring
+04-iterator

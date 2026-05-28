@@ -1,0 +1,31 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[manifest]
+members = [
+    "05-ci-cd",
+    "programming-practice",
+]
+
+[[package]]
+name = "05-ci-cd"
+version = "0.1.0"
+source = { virtual = "05-ci_cd" }
+dependencies = [
+    { name = "utils" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "utils", specifier = ">=1.0.2" }]
+
+[[package]]
+name = "programming-practice"
+version = "0.1.0"
+source = { virtual = "." }
+
+[[package]]
+name = "utils"
+version = "1.0.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ad/1f/c196d21c2df061923154aecf24cab049a114394956e90c9bfbfdd398e27a/utils-1.0.2.tar.gz", hash = "sha256:f4d5157e27e9d434006b5b52a1ec951a34e53e7ecaa145d43a153ec452eb5d9e", size = 13203, upload-time = "2024-01-06T07:11:25.75Z" }
