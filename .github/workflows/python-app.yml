@@ -19,11 +19,11 @@ jobs:
     - name: Test with Pytest
       run: |
         cd 05-ci_cd
-        pytest test_utilis.py
+        pytest test_converter.py
     - name: Lint with Pylint
       run: |
         cd 05-ci_cd
-        pylint ./utilis.py
+        pylint ./converter.py
     - name: Format with Black
       run: |
         cd 05-ci_cd
