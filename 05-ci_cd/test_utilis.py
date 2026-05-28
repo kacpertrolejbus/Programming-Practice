@@ -2,7 +2,7 @@ import pytest
 import utilis
 
 
-@pytest.mark.patametrize("a, b, expected", [(1, 2, 3), (2, 3, 5), (3, 4, 7), (4, 5, 9)])
+@pytest.mark.parametrize("a, b, expected", [(1, 2, 3), (2, 3, 5), (3, 4, 7), (4, 5, 9)])
 def test_add(a, b, expected):
     result = utilis.add(a, b)
     assert result == expected
